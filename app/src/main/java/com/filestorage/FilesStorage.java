@@ -42,11 +42,11 @@ public class FilesStorage extends AppCompatActivity {
         fileName = url.getPath();
         fileName = fileName.substring(fileName.lastIndexOf('/') + 1);
         fileNameTextView.setText(fileName);
-
     }
 
     public void onViewClick(View view) {
         File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + "/" + fileName);
+        Log.d(TAG, "onViewClick: "+ file);
         Uri uri = FileProvider.getUriForFile(FilesStorage.this, "com.filestorage" + ".provider", file);
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setDataAndType(uri, "application/pdf");
