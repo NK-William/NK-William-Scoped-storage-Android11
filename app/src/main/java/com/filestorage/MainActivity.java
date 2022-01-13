@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openLocal(View view) {
         Intent intent = new Intent(MainActivity.this, PdfViewer.class);
+        intent.putExtra("FILE_PATH", "/storage/emulated/0/Download/4752794Document.pdf");
         startActivity(intent);
     }
 }

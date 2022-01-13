@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/File_Storage.iml" filepath="$PROJECT_DIR$/.idea/modules/File_Storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PdfViewerlibrary/File_Storage.PdfViewerlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/PdfViewerlibrary/File_Storage.PdfViewerlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/File_Storage.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/File_Storage.app.iml" />
     </modules>
   </component>

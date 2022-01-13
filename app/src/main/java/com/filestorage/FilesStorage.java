@@ -55,7 +55,6 @@ public class FilesStorage extends AppCompatActivity {
     }
 
     public void onDownloadClick(View view) {
-        Log.d(TAG, "onDownloadClick: ");
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url + ""));
         request.setTitle(fileName);
         request.setMimeType("application/pdf");
